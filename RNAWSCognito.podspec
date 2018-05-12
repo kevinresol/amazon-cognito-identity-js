@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
 
   s.source = { :git => "https://github.com/aws/amazon-cognito-identity-js.git", :tag => s.version.to_s }
   s.source_files     = 'ios/RNAWSCognito.{h,m}'
+  s.dependency 'React'
   s.dependency 'JKBigInteger2', '0.0.5'
 end
